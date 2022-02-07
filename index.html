@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cobra</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="banner">
+            <img src="img/Logo.jpeg">
+            <h1>Cobra</h1>
+        </div>
+        <div id="jogo">
+            <canvas id="palco" width="400" height="400"></canvas>
+        </div>
+        <div id="controles">
+            <div>
+                <img id="cima" src="img/cima.png" onclick="moverCima()"></img>
+            </div>
+            <div>
+                <img id="esquerda" src="img/esquerda.png" onclick="moverEsquerda()"></img>
+                <img id="baixo" src="img/baixo.png" onclick="moverBaixo()"></img>
+                <img id="direita" src="img/direita.png" onclick="moverDireita()"></img> 
+            </div> 
+            <div id="reiniciar" onclick="reiniciar()">Reiniciar</div>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
